@@ -5,8 +5,9 @@
 1. Some nerdfont (font with ligatures and icons)
 
 TODO:
-vim-fugitive / lazygit
-lualine
-catppuccin (?)
-undotree
-harpoon v2 (?)
+
+- vim-fugitive / lazygit
+- lualine
+- catppuccin (?)
+- undotree
+- harpoon v2 (?)
