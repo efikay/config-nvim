@@ -4,4 +4,3 @@ return {
   version = "*", -- grab latest tag (which is release here)
   config = true,
 }
-

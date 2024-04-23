@@ -45,6 +45,8 @@ return {
         keymap.set("n", "]d", vim.diagnostic.goto_next, opts)
         opts.desc = "Show doc for what is under cursor"
         keymap.set("n", "K", vim.lsp.buf.hover, opts)
+        opts.desc = "Trigger LSP suggestions"
+        keymap.set("i", "<C-s>", vim.lsp.buf.completion, opts)
         opts.desc = "Restart LSP"
         keymap.set("n", "<leader>rs", "<cmd>LspRestart<CR>", opts)
       end,
@@ -61,7 +63,7 @@ return {
       ["emmet_ls"] = function()
         lsp_config["emmet_ls"].setup({
           capabilities = capabilities,
-          filetypes = { "html", "typescriptreact", "javascriptreact", "css", "sass", "scss", "less" }
+          filetypes = { "html", "typescriptreact", "javascriptreact", "css", "sass", "scss", "less" },
         })
       end,
       ["lua_ls"] = function()
@@ -79,7 +81,12 @@ return {
           },
         })
       end,
+      ["tsserver"] = function()
+        lsp_config["tsserver"].setup({
+          capabilities = capabilities,
+          settings = {},
+        })
+      end,
     })
   end,
 }
-

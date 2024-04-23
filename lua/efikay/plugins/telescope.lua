@@ -33,4 +33,3 @@ return {
     keymap.set("n", "<leader>fc", "<cmd>Telescope grep_string<CR>", { desc = "Find string undef cursor in cwd" })
   end,
 }
-
