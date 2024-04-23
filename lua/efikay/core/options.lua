@@ -12,6 +12,8 @@ opt.autoindent = true
 
 opt.wrap = false
 
+opt.incsearch = true
+opt.hlsearch = true
 opt.ignorecase = true
 opt.smartcase = true
 
@@ -23,6 +25,7 @@ opt.signcolumn = "yes"
 
 opt.backspace = "indent,eol,start"
 
+opt.scrolloff = 8
+
 opt.splitright = true
 opt.splitbelow = true
-
