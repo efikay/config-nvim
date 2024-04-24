@@ -5,7 +5,7 @@ return {
   opts = {
     indent = {
       -- https://en.wikipedia.org/wiki/Box-drawing_characters
-      char = "┊",
+      char = "│",
     },
   },
 }
