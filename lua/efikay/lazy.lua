@@ -14,6 +14,7 @@ vim.opt.rtp:prepend(lazypath)
 require("lazy").setup({
   { import = "efikay.plugins" },
   { import = "efikay.plugins.lsp" },
+  { import = "efikay.plugins.colorschemes" },
 }, {
   change_detection = {
     notify = false,
