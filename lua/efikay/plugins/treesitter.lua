@@ -30,6 +30,7 @@ return {
         "tsx",
         "html",
         "css",
+        "bash",
         "yaml",
         "markdown",
         "markdown_inline",
