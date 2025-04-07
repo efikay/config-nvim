@@ -81,8 +81,8 @@ return {
           },
         })
       end,
-      ["tsserver"] = function()
-        lsp_config["tsserver"].setup({
+      ["ts_ls"] = function()
+        lsp_config["ts_ls"].setup({
           capabilities = capabilities,
           settings = {},
         })
